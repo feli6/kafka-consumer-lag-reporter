@@ -13,10 +13,10 @@ import java.io.StringWriter
 
 /**
  * [Endpoint] that outputs metrics in a format that can be scraped by the Prometheus
- * server.
+ * server. An additional all to update kafka metrics is plugged in to the original implementation.
  *
- * @author Jon Schneider
- * @since 2.0.0
+ * Adapted from [org.springframework.boot.actuate.metrics.export.prometheus.PrometheusScrapeEndpoint]
+ *
  */
 @WebEndpoint(id = "prometheus-kafka")
 @Component
