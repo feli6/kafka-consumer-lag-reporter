@@ -9,6 +9,5 @@ import org.springframework.context.annotation.Configuration
 class KafkaConfig {
     lateinit var brokers: String
     lateinit var consumerGroups: List<String>
-    var pollingDelayMs: Long = 120000
 
 }
