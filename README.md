@@ -1,4 +1,7 @@
-# kafka-consumer-lag-reporter
+[![Build Status](https://travis-ci.org/feli6/kafka-consumer-lag-reporter.svg?branch=master)](https://travis-ci.org/feli6/kafka-consumer-lag-reporter)
+
+# Kafka consumer lag reporting using prometheus
+
 A standalone spring boot app for reporting kafka consumer group lag metrics to prometheus.
 Tested with Kafka 1.0
 
