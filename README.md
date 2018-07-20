@@ -11,6 +11,12 @@ Following properties are required:
 kafka.brokers= broker urls
 kafka.consumerGroups= list of consumer groups separated by comma
 
-The properties can be configured frm the web/src/main/resources/application.properties file.
-If you are running using docker, these properties can be overridden using environment variables.
+The properties can be configured from the web/src/main/resources/application.properties file.
+If you are using docker, these properties can be overridden using the following environment variables.
+
+KAFKA_BROKERS & KAFKA_CONSUMER_GROUPS
+
+The docker image is available on docker hub
+
+docker pull feli6/kafka-consumer-lag-reporter
 
